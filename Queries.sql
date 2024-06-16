@@ -136,7 +136,7 @@
 – Download_count An integer count of the number of times this database was downloaded
 This table has no constraints.
 
-     Create table if not exists database (name varchar, version float, downloaded_count integer);
+     Create table if not exists database (name varchar, version float, download_count integer);
 
 -----------------EXERCISE 17-------------------
 1.Add a column named Aspect_ratio with a FLOAT data type to store the aspect-ratio each movie was released in?
